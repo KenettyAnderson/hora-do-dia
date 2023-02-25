@@ -1,7 +1,10 @@
 function carregar() {
-    var data =new Date()
+    var data = new Date()
     var hora = data.getHours()
     var minuto = data.getMinutes()
+    if (minuto < 10) {
+        minuto = '0' + minuto
+    }
     var hora_atual = window.document.getElementById('hora_atual')
     var img_hora = window.document.getElementById('imagem')
 
