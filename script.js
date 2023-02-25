@@ -1,6 +1,6 @@
 function carregar() {
     var data =new Date()
-    var hora = 20 //data.getHours()
+    var hora = data.getHours()
     var minuto = data.getMinutes()
     var hora_atual = window.document.getElementById('hora_atual')
     var img_hora = window.document.getElementById('imagem')
