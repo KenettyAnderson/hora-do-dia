@@ -1,4 +1,4 @@
-function carregar() {
+setInterval(function carregar() {
     var data = new Date()
     var hora = data.getHours()
     var minuto = data.getMinutes()
@@ -24,4 +24,4 @@ function carregar() {
         window.document.body.style.background = '#8c456f'
     }
 
-}
+}, 1000)
